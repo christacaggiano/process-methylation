@@ -15,4 +15,4 @@ The scripts run on the command line like this:
 
 ```
 
-The output should be one file, with a total of number of X sites. 
+The output should be one file, with a total of number of ~28 million sites. 

@@ -25,3 +25,8 @@ bedtools intersect -a all_encode_sites.txt -b $name$num".meth_depth" -loj -sorte
 
 # combine the forward and reverse strand methylation
 python sum_strands.py $name$num".sites" $name$num".all_sites"
+
+
+########### combine two replicates 
+
+python combine.py $name"1.all_sites" $name"2.all_sites" $name"_all.bed"

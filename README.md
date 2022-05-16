@@ -15,6 +15,7 @@ The scripts run on the command line like this:
 
 ```
 
+<<<<<<< HEAD
 The output should be one file, with a total of number of ~28 million sites.
 
 # Converting to Hg38
@@ -53,3 +54,6 @@ python combine.py brain1.all_sites brain2.all_sites brain_all.meth_depth
 ```
 
 See `process_encode.sh` for an example in a bash context. 
+=======
+The output should be one file, with a total of number of ~28 million sites. 
+>>>>>>> 180cce1493a2e5ec9ea5b9fab2da931d3747df59

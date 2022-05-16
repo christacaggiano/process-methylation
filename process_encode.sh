@@ -17,7 +17,7 @@ gunzip ENCFF917PWY.bed.gz # unzip the bedfile
 mv ENCFF763RUE.bed $name$num".bed" # rename it
 
 # convert the file so that it is the number of methylated reads and the total number of reads
-awk '{print $1 "\t" $2 "\t" $3 "\t" ($13*$10)/100 "\t" $13}' $name$num".bed"  > $name$num".meth_depth"
+awk '{print $1 "\t" $2 "\t" $3 "\t" ($14*$11)/100 "\t" $14}' $name$num".bed"  > $name$num".meth_depth"
 
 # find the sites that we will be using for our analysis. If the site is missing from this file, bedtools will
 # keep it (that's the -loj parameter), but enter it as a -1, so we know it is missing

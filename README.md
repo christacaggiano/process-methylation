@@ -53,3 +53,7 @@ python combine.py brain1.all_sites brain2.all_sites brain_all.meth_depth
 ```
 
 See `process_encode.sh` for an example in a bash context.
+
+# TIMs
+
+To subset to preexisting TIMs (calculated using a set of ~20 tissues taken from ENCODE and BLUEPRINT), follow `tims-scripts/intersect_tims.sh`
